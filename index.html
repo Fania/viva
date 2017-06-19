@@ -74,7 +74,8 @@
 			.reveal section img {
 				border: 0;
 				background: none;
-				box-shadow: none;}
+				box-shadow: none;
+				max-height: 500px;}
 
 			.fullimg {
 				height: 600px;
@@ -242,36 +243,50 @@
 
 				<section data-markdown>
 					<script type="text/template">
-						## Algorithms
-
-						$$
-						P(q)_C \ = \ \\{ \ p \ \in \ v_0 \ : \ 0 \ < \ damlev(q, p) \ \leq \ 2 \ \\}
-						$$
-
-
-						$$
-						P(q)_S \ = \ \\{ \ p \ \in \ V \ : \ p \ \in \ nyms(s), 8s 2 synonyms(q)}
-						where nyms(s) = hypos(s) [ hypers(s) [ holos(s) [ meros(s)
-						$$
-
-						note:
-
-						q = query
-						P = patadata
-						C = clinamen
-						v_0 = faustroll text
-						damlev = damerau levenshtein algorithm 
-						
-					</script>
-				</section>
-
-				<section data-markdown>
-					<script type="text/template">
 						## pata.physics.wtf
 
 						![system](imgs/fig141.png)
 					</script>
 				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						## Algorithms
+
+						Clinamen, Syzygy, Antinomy
+
+						**clear**
+
+						*(l_28 - Verne, "I believe it will **settle** all your doubts", Syzygy)*  
+						*(l_20 - Rabelais, "and all for **fear** of dying", Clinamen)*  
+						*(s_28 - Shakespeare, "shining beams thy **cloudy** wrath Hath in eternal darkness folded up", Antinomy)* 
+
+					</script>
+				</section>
+
+				<!--<section data-markdown>
+					<script type="text/template">
+						## Algorithms
+
+						$$
+						R(P(q)) \ = \ \\{(d \ \in \ D, \ sent(p) \ \in \ d, \ f \ \in \ F) : \ \forall \ p \ \in \ P(q)_f ))\\}
+						$$
+
+						*(l_28 - Verne, "I believe it will **settle** all your doubts", Syzygy)*  
+						*(l_20 - Rabelais, "and all for **fear** of dying", Clinamen)*  
+						*(s_28 - Shakespeare, "shining beams thy **cloudy** wrath Hath in eternal darkness folded up", Antinomy)* 
+
+						note:
+
+						q = query
+						P = patadata
+						R = result
+						D = documents
+						F = patalgorithms
+						sent(p) = sentence
+						
+					</script>
+				</section>-->
 
 				<section data-markdown>
 					<script type="text/template">
